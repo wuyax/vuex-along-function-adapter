@@ -45,7 +45,7 @@ function strToFunc(str: string): Function {
     return Function('"use strict";return (' + substr + ')')()
   } catch (error) {
     if (error instanceof SyntaxError) {
-      console.warn('converter string to function SyntaxError')
+      console.warn('convert string to function SyntaxError')
     } else {
       console.error(error)
     }
