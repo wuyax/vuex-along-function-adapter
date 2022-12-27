@@ -1,0 +1,37 @@
+{
+  "name": "vuex-along-function-adapter",
+  "version": "0.1.0",
+  "description": "Automatically restore vuex state after refreshing the page, support for pure functions.",
+  "author": "wuyax",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuex"
+  ],
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyax/vuex-along-function-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wuyax/vuex-along-function-adapter/issues"
+  },
+  "homepage": "https://github.com/wuyax/vuex-along-function-adapter#readme"
+}
