@@ -1,5 +1,5 @@
 /**
- * vuex-along-function-adapter.js (c) 2022
+ * vuex-along-function-adapter.ts (c) 2022
  * Author: WUYAX
  * Version: V0.1.0
  * Created: 2022-12-27 15:01
@@ -130,6 +130,6 @@ class FunctionAdapter {
 export default function functionAdapter() {
   return {
     local: FunctionAdapter,
-    sync: false,
+    sync: true
   }
 }
